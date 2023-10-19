@@ -1,0 +1,173 @@
+.nav {
+    background-color: white;
+    margin: auto;
+    border-radius: 40px;
+    width: 70vw;
+    box-shadow: 5px 5px 50px gray;
+}
+
+.para1 {
+    font-weight: bold;
+    margin-top: 40%;
+    margin-left: 20%;
+    font-size: 300%;
+}
+
+.col2 {
+    background: url('../Images/banner.png');
+    background-repeat: no-repeat;
+}
+.logotitle{
+    font-size: 2vh;
+}
+
+#logo {
+    height: 2vh;
+    margin-right: 2%;
+
+}
+
+.gtstrt {
+    margin-left: 20%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+
+.button {
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.abs {
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+
+}
+
+.abc {
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+
+#lorem {
+    margin: auto;
+}
+
+.symbol {
+    font-size: 200%;
+}
+
+#span1 {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#skills {
+    margin-right: 20%;
+}
+
+div#expert {
+    text-align: center;
+}
+
+.flex3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.span2 {
+    font-weight: bold;
+}
+
+
+.gtstrt2 {
+    width: auto;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.div3 {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+    width: 40vw;
+    background: url('../Images/banner.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    top: 40%;
+}
+
+.div5 {
+    background-color: rgb(3, 3, 37);
+    color: white;
+}
+
+.div6 {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width:474px) {
+    .div6 {
+        display: block;
+    }
+}
+
+
+.teamimages {
+    border-radius: 10px;
+    bottom: 0;
+    transition-property: bottom;
+    transition-duration: 10s;
+}
+
+.teamimages:hover {
+    box-shadow: 10px 10px 20px grey;
+    position: relative;
+    bottom: 15px;
+
+}
+
+.b1img {
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgb(3, 3, 37);
+    color: gray;
+}
+
+.testimages {
+    width: 5vw;
+    border-radius: 70px;
+}
+.div6>div>ul{
+    list-style-type: none;
+}
+.hhh:hover {
+
+    transform: scale(1.03);
+    z-index: 2;
+
+}

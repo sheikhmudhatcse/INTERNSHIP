@@ -1,0 +1,121 @@
+.h {
+    color: rgb(203, 55, 85);
+}
+
+.h:hover {
+
+    text-decoration: underline;
+
+}
+
+
+.icon {
+    color: gray;
+}
+
+.h {
+    width: 60;
+    height: 60;
+}
+
+.vl {
+    border-left: 3px solid rgb(203, 55, 85);
+    height: 50px;
+}
+
+.ex1 {
+    background-color: rgb(233, 47, 84);
+}
+
+.ex1:hover {
+
+    font-size: 100%;
+}
+
+.ex1:hover {
+    background-color: #353333;
+}
+
+.num {
+    color: rgb(233, 47, 84);
+}
+
+.pl {
+    font-weight: 100;
+
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hhh:hover {
+
+    transform: scale(1.03);
+    z-index: 2;
+
+}
+
+.mmm {
+    color: white;
+}
+
+.mmm.hhh:hover {
+
+    transform: scale(1.03);
+    z-index: 2;
+
+}
+
+.mmm:hover {
+    color: rgb(203, 55, 85);
+}
+
+.flex3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.div5 {
+
+    background-color: rgb(3, 3, 37);
+    color: white;
+}
+
+.div6 {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width:474px) {
+    .div6 {
+        display: block;
+    }
+}
+.div3 {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+    width: 40vw;
+    background: url('../Images/banner.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    top: 40%;
+}
+.nav {
+    background-color: white;
+    margin: auto;
+    border-radius: 40px;
+    width: 70vw;
+    box-shadow: 5px 5px 50px gray;
+}

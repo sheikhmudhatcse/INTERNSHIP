@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+#span1 {
+    font-weight: bold;
+    font-size: 200%;
+}
+.symbol {
+    font-size: 200%;
+}
+.abc {
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+div#skills {
+    margin-right: 20%;
+}
+
+div#expert {
+    text-align: center;
+}
+
